@@ -1,0 +1,182 @@
+body {
+  background: rgb(255, 255, 255);
+  margin: 50px;
+  padding: 50px;
+  max-width: 100 vw;
+  margin: 2rem auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+	border-bottom: 4px dashed rgb(242, 78, 163);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+header{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#home{
+	background-image: url("https://images.unsplash.com/photo-1580508244245-c446ca981a6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80");
+	background-repeat: no-repeat;
+	background-size: 100% 85%;
+	position:relative;
+	
+}
+
+#home:before{
+	content: '';
+	position: absolute;
+	z-index: -1;
+	bottom: 300px;
+	left: 0;
+	width:100%;
+	height:290px;
+	background: url(./wave.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+/*I got this from a youtube tutorial lol*/
+
+#name{
+	background-color: white;
+	color: rgb(239, 131, 149);
+	border: 5px double rgb(229, 89, 113);
+	border-radius: 50%;
+	height:150px;
+	width: 450px;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+img{
+	border-radius: 50%;
+	border: 10px double rgb(235, 125, 143);
+
+}
+
+
+
+section{
+	margin: 5px;
+	border-bottom: 6px dotted #f270ab;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: larger;
+}
+
+#skills, #likes, #goals{
+	font-size: 16px;
+	display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+main{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div{
+	margin: 20px;
+	height:310px;
+	width: 340px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    background-color: #ffffff;
+    border: 5px solid #bc74ae;
+    border-radius: 50%;
+	opacity:90%;
+    
+}
+li{
+	font-size: larger;
+	
+}
+
+ol {
+	padding-left: 0;
+	
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+	
+}
+
+#crumb{
+	border-radius: 50%;
+	border: px dotted rgb(235, 125, 143);
+	height:50px;
+
+}
+
+
+a {
+	color: rgb(183, 56, 160);
+	text-decoration: none;
+	position:relative;
+	left:10px;
+	bottom: 30px;
+
+}
+a:hover{
+	color: pink;
+	text-decoration: underline;
+}
+
+
+#food{
+	width:200px;
+	height: 100px;
+	background-color: pink;
+}
+#food:hover{
+	background-color: #bc74ae;
+}
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.button{
+	background-color: yellow;
+	width: 200px;
+	height: 80px;
+}
+
+button:hover{
+	background-color: #f270ab;
+}
+
+footer{
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
